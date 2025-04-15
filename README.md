@@ -1,5 +1,5 @@
 
-🎬 Movie Ticket Booking Application
+#🎬 Movie Ticket Booking Application
 This is a full-stack Movie Ticket Booking Web Application, inspired by platforms like BookMyShow. The application allows users to:
 
 Browse movies
@@ -14,7 +14,7 @@ It is divided into two parts:
 
 Frontend built using React.js
 
-Backend built using Node.js, Express, and optionally MongoDB
+#Backend built using Node.js, Express, and  MongoDB
 
 🧰 Project Structure
 graphql
@@ -103,7 +103,7 @@ React Router
 
 Axios
 
-Bootstrap / TailwindCSS (optional)
+Bootstrap 
 
 Backend:
 Express.js
@@ -114,6 +114,6 @@ CORS
 
 Body-parser
 
-MongoDB + Mongoose (if DB used)
+MongoDB + Mongoose
 
 dotenv
