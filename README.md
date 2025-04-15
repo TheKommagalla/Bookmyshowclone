@@ -1,5 +1,8 @@
 
-#🎬 Movie Ticket Booking Application
+#Movie Ticket Booking Application
+
+
+
 This is a full-stack Movie Ticket Booking Web Application, inspired by platforms like BookMyShow. The application allows users to:
 
 Browse movies
