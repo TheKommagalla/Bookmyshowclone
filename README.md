@@ -1,5 +1,5 @@
 
-#Movie Ticket Booking Application
+# Movie Ticket Booking Application
 
 
 
@@ -17,13 +17,9 @@ It is divided into two parts:
 
 Frontend built using React.js
 
-#Backend built using Node.js, Express, and  MongoDB
+# Backend built using Node.js, Express, and  MongoDB
 
 🧰 Project Structure
-graphql
-Copy
-Edit
-your-project/
 ├── react/          # Frontend React app
 ├── backend/        # Backend API with Node.js and Express
 ├── .gitignore
@@ -42,53 +38,42 @@ your-project/
 📱 Fully responsive design
 
 📦 Frontend Setup (React)
-Requirements:
+# Requirements:
+
+
+
 Node.js (v16+)
 
 npm or yarn
 
-Steps to Run Frontend:
-bash
-Copy
-Edit
+# Steps to Run Frontend:
+
 cd react
 npm install
 npm start
 This will start the frontend app on:
 📍 http://localhost:3000
 
-🛠 Backend Setup (Node.js + Express)
-Requirements:
+# Backend Setup (Node.js + Express)
+# Requirements:
 Node.js (v16+)
+MongoDB
+# Steps to Run Backend:
 
-npm
-
-MongoDB (if using database functionality)
-
-Steps to Run Backend:
-bash
-Copy
-Edit
 cd backend
 npm install
-npm run dev  # or node index.js / node server.js
+nodemon start  
+
+
 By default, the server runs at:
 📍 http://localhost:5000
 
-🔗 Connecting Frontend and Backend
+# Connecting Frontend and Backend
 Make sure your frontend is making API requests to the backend correctly. For local development, you can use:
-
-js
-Copy
-Edit
 // Example in frontend API calls
-axios.get('http://localhost:5000/api/movies')
-💡 You can use a proxy in react/package.json:
+fetch('http://localhost:5000/api/movies')
 
-json
-Copy
-Edit
-"proxy": "http://localhost:5000"
+
 📁 Environment Variables (Backend)
 Create a .env file inside the backend/ folder if you're using environment-specific configs:
 
@@ -97,18 +82,16 @@ Copy
 Edit
 PORT=5000
 MONGO_URI=your-mongodb-uri
-JWT_SECRET=your-secret-key
-📌 Dependencies Summary
-Frontend:
+
+# Dependencies Summary
+# Frontend:
 React
 
 React Router
 
-Axios
-
 Bootstrap 
 
-Backend:
+# Backend:
 Express.js
 
 Node.js
